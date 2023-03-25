@@ -30,3 +30,6 @@ we show you how to position your elements, layout your elements relative to your
 * CSS animation
 
 and more....
+
+## Authors
+© **INNOCENT UDO** - [Github Account](https://github.com/Innocentsax) Email:[innocentcharlesud@gmail.com](mailto:innocentcharlesudo@gmail.com)
