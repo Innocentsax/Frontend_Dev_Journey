@@ -1,0 +1,7 @@
+==> FRONTEND DEV JOURNEY.
+
+https://www.coursera.org/professional-certificates/google-project-management (Project management)
+
+https://appbrewery.github.io/gridgarden/ (Grid garden)
+
+https://appbrewery.github.io/flexboxfroggy/ (CSS Flex box positioning)
