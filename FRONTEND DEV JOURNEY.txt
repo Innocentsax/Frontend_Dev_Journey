@@ -7,3 +7,7 @@ https://appbrewery.github.io/gridgarden/ (Grid garden)
 https://appbrewery.github.io/flexboxfroggy/ (CSS Flex box positioning)
 
 https://appbrewery.github.io/bootstrap-layout/ (Bootstrap layout)
+
+https://www.w3schools.com/bootstrap/bootstrap_templates.asp (Bootstrap Template)
+
+https://appbrewery.github.io/tindog/ (Bootstrap Project)
