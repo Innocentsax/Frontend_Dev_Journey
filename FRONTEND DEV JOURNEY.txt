@@ -11,3 +11,7 @@ https://appbrewery.github.io/bootstrap-layout/ (Bootstrap layout)
 https://www.w3schools.com/bootstrap/bootstrap_templates.asp (Bootstrap Template)
 
 https://appbrewery.github.io/tindog/ (Bootstrap Project)
+
+WEB DESIGN
+  ==> https://colorhunt.co/
+  ==>https://color.adobe.com/create/color-wheel
