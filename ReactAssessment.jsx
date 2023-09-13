@@ -28,6 +28,10 @@ export default function App() {
   );
 }
 
+
+
+export default Counter;
+
 =====> Bagde.jsx <====
 import React from "react";
 
@@ -54,6 +58,34 @@ function Name(props) {
 
 function Handle(props) {
   return <p>@{props.handle}</p>;
+}
+
+
+====> counter.jsx <===
+import React, { useState } from "react";
+
+function Counter() {
+  const [counter, setCounter] = useState(0);
+
+  const incrementCounter = () => {
+    setCounter(counter + 1);
+  };
+
+  const decrementCounter = () => {
+    setCounter(counter - 1);
+  };
+
+  return (
+    <div>
+      <h1 className="counter">{counter}</h1>
+      <button className="decrement" type="button" onClick={decrementCounter}>
+        Decrement
+      </button>
+      <button className="increment" type="button" onClick={incrementCounter}>
+        Increment
+      </button>
+    </div>
+  );
 }
 
 
