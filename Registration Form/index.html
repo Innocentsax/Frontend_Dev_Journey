@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>ICA Abuja Seat Booking Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <img src="Logo.png" alt="Smiley face" height="52" width="52">
+      <header>ICA Abuja Seat Booking Form</header>
+      <p>Attendee Information</p>
+      <p>Please fill name and contact information of attendees</p>
+      <form action="#" class="form">
+        <div class="input-box">
+          <label>Full Name</label>
+          <input type="text" placeholder="Enter full name" required />
+        </div>
+
+        <div class="input-box">
+          <label>Email Address</label>
+          <input type="text" placeholder="Enter email address, must be a valid and working email please" required />
+        </div>
+
+        <div class="column">
+          <div class="input-box">
+            <label>Phone Number</label>
+            <input type="number" placeholder="Enter phone number" required />
+          </div>
+        </div>
+        <div class="booking-number">
+            <label>ICA card number/ receipt NO: </label><div id="output"> </div>
+        </div>
+        <div class="Guest-box">
+          <h3>Guest</h3>
+          <div class="Guest-option">
+            <div class="Guest">
+              <input type="radio" id="check-no" name="Guest" checked />
+              <label for="check-no">no</label>
+            </div>            
+            <div class="Guest">
+              <input type="radio" id="check-yes" name="Guest"  />
+              <label for="check-yes">yes</label>
+            </div>
+          </div>
+          <div id="Guest-info"> </div>
+        </div>
+        </div>
+        <button>Submit</button>
+        <footer>
+          <small>© <script>document.write(new Date().getFullYear())</script> Indian Cultural Association, Abuja. All Rights Reserved.</small>
+        </footer>
+      </form>
+    </section>
+
+    <script>
+
+  document.getElementById("check-no").addEventListener('click', function (event) {
+    if (event.target && event.target.matches("input[type='radio']")) {
+      document.getElementById('Guest-info').innerHTML = `
+        `;
+    }});
+    document.getElementById("check-yes").addEventListener('click', function (event) {
+    if (event.target && event.target.matches("input[type='radio']")) {
+      document.getElementById('Guest-info').innerHTML = `
+      <div class="input-box">
+      <label>Full Name</label>
+          <input type="text" placeholder="Enter full name" required />
+        </div>
+        <div class="column">
+          <div class="input-box">
+            <label>Phone Number</label>
+            <input type="number" placeholder="Enter phone number" required />
+          </div>
+        </div>
+        `;
+    }
+});
+    let booking_code =  Math.random().toString(36).slice(6);
+    document.getElementById('output').innerHTML = ` ${booking_code}`;
+     
+    </script>
+  </body>
+</html>
